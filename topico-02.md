@@ -1,4 +1,5 @@
 (1) Um banco de dados é um conjunto organizado e estruturado de informações ou dados relacionados que são armazenados de forma sistemática.
+
 (2) Usuários: São indivíduos ou entidades que interagem com um sistema, software, ou banco de dados, com permissões específicas para executar ações dentro desse ambiente.
 
 Esquemas: São estruturas ou planos que definem a organização dos dados dentro de um banco de dados, incluindo a descrição das tabelas, campos, relacionamentos e restrições.
