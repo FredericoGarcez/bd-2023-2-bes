@@ -1,0 +1,11 @@
+Concurrency Control (Controle de Concorrência): O Controle de Concorrência é um componente do SGBD que gerencia o acesso simultâneo de várias transações ao banco de dados. Ele garante que as transações sejam executadas de forma segura e isolada umas das outras, evitando problemas como leituras sujas, escritas perdidas e outros conflitos que podem surgir quando várias transações acessam os mesmos dados ao mesmo tempo.
+
+Transaction Manager (Gerenciador de Transações): O Gerenciador de Transações é responsável por garantir que as transações sejam executadas com sucesso e de acordo com o padrão ACID (Atomicidade, Consistência, Isolamento e Durabilidade). Ele coordena o início, o término e a recuperação de transações, garantindo que elas sejam executadas de maneira confiável, mesmo em caso de falhas no sistema.
+
+Query Compiler (Compilador de Consultas): O Compilador de Consultas é responsável por traduzir consultas escritas em linguagens de consulta (como SQL) em um plano de execução otimizado que o SGBD pode entender e executar eficientemente. Isso envolve a análise sintática e semântica das consultas, a otimização do plano de execução e a geração de código de consulta executável.
+
+Logging and Recovery (Registro e Recuperação): O Registro e Recuperação são processos críticos de manutenção da consistência e durabilidade dos dados em um banco de dados. O componente de Registro registra todas as operações de transação em um registro de log, permitindo a recuperação em caso de falhas do sistema. Se ocorrer uma falha, o SGBD pode usar o log para recuperar o banco de dados para um estado consistente e durável.
+
+Buffer Manager (Gerenciador de Buffer): O Gerenciador de Buffer gerencia a memória do sistema usada para armazenar dados temporariamente enquanto são lidos ou gravados no disco. Ele controla a transferência eficiente de dados entre a memória principal e o armazenamento em disco, reduzindo a necessidade de acesso constante ao disco e melhorando o desempenho do sistema.
+
+Execution Engine (Motor de Execução): O Motor de Execução é responsável por executar o plano de execução gerado pelo Compilador de Consultas. Ele coordena a recuperação de dados, executa operações de leitura e gravação no banco de dados, aplica o Controle de Concorrência e garante que as transações sejam executadas de acordo com o planejado.
